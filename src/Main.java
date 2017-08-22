@@ -1,19 +1,13 @@
-# Java_SinglyLinkedList
-Demo about  using singly linkedlist class write in Java language 
+/**
+ * Created by manhnv118 on 8/22/2017.
+ */
+public class Main {
 
-1. Append an element into the linkedlist
-2. Remove the tail element from a linkedlist
-3. Remove all element in the linkedlist that is great than a target value
-
----
-
-## Sample
-
-```
+    public static void main(String[] args) {
         System.out.println("______________SinglyLinkedList_____________________");
 
         SinglyLinkedList linkedList = new SinglyLinkedList();
-        linkedList.add(1); 
+        linkedList.add(1);
         linkedList.add(9);
         linkedList.add(7);
         linkedList.add(5);
@@ -30,12 +24,5 @@ Demo about  using singly linkedlist class write in Java language
         linkedList.removeTail();
         System.out.println("Remove tail \t\t\t: " + linkedList);
         System.out.println("_________________________________________________");
-
-```
-
-## Output
-```
-Init :                  : [1, 9, 7, 5, 11, 9, 2]
-Remove greater than 6 	: [1, 5, 2]
-Remove tail 		: [1, 5]
-```
+    }
+}
